@@ -9,11 +9,14 @@ import { Platform } from './hooks/useGames'
 import SortSelector from './components/SortSelector'
 import GameHeading from './components/GameHeading'
 
+
 export interface GameQuery {
   genre: Genre | null,
   platform: Platform | null,
   sortOrder: string, searchText: string
 }
+
+
 
 const App = () => {
 

@@ -6,7 +6,7 @@ import { AxiosRequestConfig, CanceledError } from "axios"
 
 
 
-interface FtechResponse<T> {
+export interface FtechResponse<T> {
   count: number,
   results: T[]
 }
